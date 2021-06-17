@@ -44,5 +44,5 @@ const options = {
 //деструктуризация
 const {border, bg} = options.colors;
 
-console.log(options)
+//console.log(options)
 console.log(border);
