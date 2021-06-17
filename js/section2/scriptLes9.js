@@ -22,7 +22,7 @@ function learnJS(lang, callback){
 }
 
 function done(){
-    console.log('я прошел!')
+    console.log('я прошел!');
 }
 
 learnJS('JS', done);
