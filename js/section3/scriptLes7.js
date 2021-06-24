@@ -33,3 +33,18 @@ class ColoredRentangleWithText extends Renctangle {
 const div = new ColoredRentangleWithText(25, 10 , 'hello', 'red');
 div.showMyProps();
 console.log('div.calcArea() :>> ', div.calcArea());
+
+"use strict";
+
+const log = function (a, b, ...rest) { // ...rest - собирает все оставшееся и формирует в массив
+  console.log(a, b, rest);  
+};
+
+log('basic', 'rest', 'operator', 'usech');
+
+function calcOrDouble(num, basis = 6) {
+    // basis = basis || 2;
+    console.log('numver * basis :>> ', num * basis);
+}
+
+calcOrDouble(2);
