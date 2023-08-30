@@ -18,7 +18,6 @@ console.log(obj);
 console.log(name);
 var name = 'Denis'; //старая версия объявления переменных
 
-
 {
     let result = 50;
 }
