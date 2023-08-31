@@ -25,5 +25,7 @@ console.log(obj.name);
 console.log(obj["name"]);
 
 //arrray
-let arr = ['1','2','3','4','5','6', { a: 34}, 78, [1,2]];
+let arr = ['1','2', 3,'4','5','6', { a: 34}, 78, [1,2]];
 console.log(arr[8]);
+
+console.log(`${arr[2]} + ${arr[2]} = ${arr[2] + arr[2]}`);
